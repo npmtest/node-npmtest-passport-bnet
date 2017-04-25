@@ -1,6 +1,6 @@
 # npmtest-passport-bnet
 
-#### test coverage for  [passport-bnet (v1.2.1)](https://github.com/Blizzard/passport-bnet#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-bnet.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-bnet) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-bnet.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-bnet)
+#### basic test coverage for  [passport-bnet (v1.2.1)](https://github.com/Blizzard/passport-bnet#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-passport-bnet.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-passport-bnet) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-passport-bnet.svg)](https://travis-ci.org/npmtest/node-npmtest-passport-bnet)
 
 #### Bnet authentication strategy for Passport.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-passport-bnet/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-passport-bnet/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-passport-bnet/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-passport-bnet/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-bnet/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-bnet/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-passport-bnet/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-passport-bnet/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-passport-bnet/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-passport-bnet/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-passport-bnet/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-passport-bnet/build/coverage.html/index.html)
 
@@ -93,7 +93,8 @@
     "scripts": {
         "test": "mocha test/**/*.js"
     },
-    "version": "1.2.1"
+    "version": "1.2.1",
+    "bin": {}
 }
 ```
 
